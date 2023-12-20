@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "410847697210",
+    "project_id": "teste-ffaf6",
+    "storage_bucket": "teste-ffaf6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410847697210:android:aecd445c9dc9139d539803",
+        "android_client_info": {
+          "package_name": "com.example.teste_agtech"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKRRU1ogDIytNOrcuUPQbx4G3HISDm8Zo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
