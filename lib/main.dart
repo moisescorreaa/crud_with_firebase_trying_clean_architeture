@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:teste_agtech/screens/results.dart';
 
 import 'data/firebase_options.dart';
+import 'utils/theme/color_schemes.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,9 +18,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(useMaterial3: true, colorScheme: lightColorScheme),
+      darkTheme: ThemeData(useMaterial3: true, colorScheme: darkColorScheme),
       debugShowCheckedModeBanner: false,
-      home: ResultsScreen(),
+      home: const ResultsScreen(),
     );
   }
 }
