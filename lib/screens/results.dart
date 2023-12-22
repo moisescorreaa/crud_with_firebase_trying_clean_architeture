@@ -21,7 +21,7 @@ class _ResultsScreenState extends State<ResultsScreen> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Equipment'),
+          title: const Text('Equipments'),
           centerTitle: true,
         ),
         body: StreamBuilder<QuerySnapshot>(
